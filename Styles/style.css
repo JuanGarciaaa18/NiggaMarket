@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+
+header{
+    background: rgb(62, 0, 90);
+    display: flex;
+    width: auto;
+    height: 80px;
+}
+
+header> h1{
+    width: 400px;
+    height: 60px;
+    padding-bottom: 1rem;
+padding-left: 1rem;
+}
+
+header > h2{
+    text-align: right;
+    width: 90rem;
+}
+
+.eslogan {
+    font-size:20rem;
+}
+
+.cards h2{
+    font-size: 20rem;
+}
+
+.cards img{
+    border-radius: 20px;
+}
