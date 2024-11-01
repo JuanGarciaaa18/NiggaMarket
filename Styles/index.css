@@ -1,0 +1,42 @@
+#products-container{
+    display: flex;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    margin-left: 8rem;
+}
+
+.card-product{
+    max-width: 400px;
+    text-align: center;
+    background-color: seagreen;
+    padding: 10px;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    
+    transition: 200ms;
+}
+
+
+.card-product:hover{
+    translate: 0 -10px;
+    box-shadow: 0 10px 5px beige;
+}
+
+h3,p{
+    margin: 6px 0;
+    font-size: 2rem;
+}
+
+.card-product img{
+    width: 100%;
+}
+
+button{
+    background-color: green;
+    border: none;
+    border-radius: 20px;
+    height: 2rem;
+    font-size: 1.5rem;
+    width: 10rem;
+    cursor: pointer;
+}

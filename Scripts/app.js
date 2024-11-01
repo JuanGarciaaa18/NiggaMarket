@@ -1,9 +1,18 @@
-import { products } from "./carshop.js";
+const containercards= document.getElementById("products-container");
 
-const addproduct=document.getElementById('addproduct')
-const nameproduct=document.getElementById('nameproduct')
-const priceproduct=document.getElementById('priceproduct')
-const imgproduct=document.getElementById('imgproduct')
+function creatcardsproducts(products){
+    products.forEach(products=> {
+        const newpheripherals = document.createElement("div");
+        newpheripherals.classList ="card-product";
+        newpheripherals.innerHTML = `
+        <img src="${products.img}">
+        <h3>${products.nombre}</h3>
+        <p>$${products.precio}</p>
+        <button>Comprar</button>
+        `
+        
+        containercards.appendChild(newpheripherals);
+    });
+}
 
-
-addproduct.addEventListener ('click', () => products.push())
+creatcardsproducts(products);
