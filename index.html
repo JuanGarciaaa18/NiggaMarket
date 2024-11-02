@@ -4,163 +4,176 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Styles/style.css">
-    <title>Market</title>
+    <title>SantiMarket</title>
 </head>
 <body>
     <header>
-        <h1>electronic peripherals</h1>
-        <a href="carshop.html">
-        <h2>Ver Carrito</h2>
-    </a>
+        <div class="Logo-name">
+           <h2>NIGGA MARKET</h2>
+        </div>
+        <div class="middle-btn">
+        </div>
+        <div class="CarShop">
+            <img onclick="showCart(this)" class="cart" src="assets/Images/th.jpg" alt="cart">
+            <p class="count-product">0</p>
+        </div>
+        <div class="cart-products" id="products-id">
+            <p class="close-btn" onclick="closeBtn()">X</p>
+
+            <div class="card-items"></div>
+            <h2>Total: $<strong class="price-total">0</strong></h2>
+        </div>
     </header>
 
-    <Section class="main">
-        
-    <div class="eslogan">
-        <h2>Buy the best peripherals for you PC</h2>
+    
+    <div class="products">
+
+        <div class="eslogan">
+            <h2>Buy the best peripherals for you PC</h2>
+        </div>
+        <section class="sect-products1">
+            <div class="product">
+                <h2>TECLADO REDRAGON</h2>
+                <img src="assets/Images/dragonborn-7.png" alt="Product">
+                <h3>Precio: 165.000</h3>
+                <button data-id="1" class="btn-add-cart">Agregar al carrito</button>
+            </div>
+            <div class="product">
+                <h2>MOUSE REDRAGON</h2>
+                <img src="assets/Images/MOUSE.webp.crdownload" alt="Product">
+                <h3>Precio: 110.000</h3>
+                <button data-id="2" class="btn-add-cart">Agregar al carrito</button>
+            </div>
+            <div class="product">
+                <h2>DIADEMA TRUST</h2>
+                <img src="assets/Images/TRUST.jpg" alt="Product">
+                <h3>Precio: 90.000</h3>
+                <button data-id="3" class="btn-add-cart">Agregar al carrito</button>
+            </div>
+            <div class="product">
+                <h2>CHASIS ICEBERG</h2>
+                <img src="assets/Images/CHASIS.jpg" alt="Product">
+                <h3>Precio: 320.000</h3>
+                <button data-id="4" class="btn-add-cart">Agregar al carrito</button>
+            </div>
+            <div class="product">
+                <h2>MONITOR SPECTRE</h2>
+                <img src="assets/Images/SPECTRE.jpg" alt="Product">
+                <h3>Precio: 820.000</h3>
+                <button data-id="5" class="btn-add-cart">Agregar al carrito</button>
+            </div>
+            <div class="product">
+                <h2>MICROFONO RAZER</h2>
+                <img src="assets/Images/MICFRONO RAZE.jpg" alt="Product">
+                <h3>Precio: 185.000</h3>
+                <button data-id="6" class="btn-add-cart">Agregar al carrito</button>
+            </div>
+        </section>
+
+        <section class="sect-products2">
+           
+            <div class="product">
+                <h2>CHASIS AEROCOOL</h2>
+                <img src="assets/Images/AEROCOOL.png" alt="Product">
+                <h3>Precio: 445.000</h3>
+                <button data-id="7" class="btn-add-cart">Agregar al carrito</button>
+            </div>
+            <div class="product">
+                <h2>MOUSE RAZER</h2>
+                <img src="assets/Images/MOUSERAZER.jpg" alt="Product">
+                <h3>Precio: 230.000</h3>
+                <button data-id="8" class="btn-add-cart">Agregar al carrito</button>
+            </div>
+            <div class="product">
+                <h2>CHASIS SZD</h2>
+                <img src="assets/Images/CHASISSZD.jpg" alt="Product">
+                <h3>Precio: 384.000</h3>
+                <button data-id="9" class="btn-add-cart">Agregar al carrito</button>
+            </div>
+            <div class="product">
+                <h2>TORRE AMD</h2>
+                <img src="assets/Images/AMD.jpg" alt="Product">
+                <h3>Precio: 3.570.000</h3>
+                <button data-id="10" class="btn-add-cart">Agregar al carrito</button>
+            </div>
+            <div class="product">
+                <h2>DIADEMA REDRAGON</h2>
+                <img src="assets/Images/DIADEMA REDRAGON.jpg" alt="Product">
+                <h3>Precio: 275.000</h3>
+                <button data-id="11" class="btn-add-cart">Agregar al carrito</button>
+            </div>
+        </section>
+        <section class="sect-products3">
+           
+            <div class="product">
+                <h2>MONITOR ACER</h2>
+                <img src="assets/Images/ACERMONITOR.jpg" alt="Product">
+                <h3>Precio: 910.000</h3>
+                <button data-id="12" class="btn-add-cart">Agregar al carrito</button>
+            </div>
+            <div class="product">
+                <h2>MOUSE RAPOO</h2>
+                <img src="assets/Images/RAPOO.jpg" alt="Product">
+                <h3>Precio: 75.000</h3>
+                <button data-id="13" class="btn-add-cart">Agregar al carrito</button>
+            </div>
+            <div class="product">
+                <h2>DIADEMA JBL</h2>
+                <img src="assets/Images/JBL.jpg"Product">
+                <h3>Precio: 90.000</h3>
+                <button data-id="14" class="btn-add-cart">Agregar al carrito</button>
+            </div>
+            <div class="product">
+                <h2>MOUSE VERTICAL</h2>
+                <img src="assets/Images/VERTICAL.jpg" alt="Product">
+                <h3>Precio: 79.000</h3>
+                <button data-id="15" class="btn-add-cart">Agregar al carrito</button>
+            </div>
+
+            <div class="product">
+                <h2>DIADEMA G435</h2>
+                <img src="assets/Images/G435.jpg" alt="Product">
+                <h3>Precio: 140.000</h3>
+                <button data-id="20" class="btn-add-cart">Agregar al carrito</button>
+            </div>
+        </section>
+        <section class="sect-products4">
+            <div class="product">
+                <h2>MOUSE PAD</h2>
+                <img src="assets/Images/MOUSEPAD.jpg" alt="Product">
+                <h3>Precio: 130.000</h3>
+                <button data-id="16" class="btn-add-cart">Agregar al carrito</button>
+            </div>
+            <div class="product">
+                <h2>CONTROL GAMESIR</h2>
+                <img src="assets/Images/GAMESIR.jpg" alt="Product">
+                <h3>Precio: 180.000</h3>
+                <button data-id="17" class="btn-add-cart">Agregar al carrito</button>
+            </div>
+            <div class="product">
+                <h2>MICROFONO HYPERX</h2>
+                <img src="assets/Images/HYPERX.jpg" alt="Product">
+                <h3>Precio: 470.000</h3>
+                <button data-id="18" class="btn-add-cart">Agregar al carrito</button>
+            </div>
+            <div class="product">
+                <h2>DISIPADOR AK400</h2>
+                <img src="assets/Images/AK400.jpg" alt="Product">
+                <h3>Precio: 285.000</h3>
+                <button data-id="19" class="btn-add-cart">Agregar al carrito</button>
+            </div>
+            
+        </section>
     </div>
 
-    <div class="cards">
-  
-        <div class="card1">
-        <h2 id="nameproduct"> Teclado Redragon</h2>
-        <img src="assets/Images/dragonborn-7.png" alt="" id="imgproduct">
-        <h2 id="priceproduct"> 100.000</h2>
-        <button id="addproduct"> Buy product</button>
-        </div> 
-
-     <div class="card1">
-        <h2>Teclado Redragon</h2>
-        <img src="assets/Images/dragonborn-7.png" alt="">
-        <button>Buy product</button>
-    </div> 
-
-
-<div class="card1">
-    <h2>Teclado Redragon</h2>
-    <img src="assets/Images/dragonborn-7.png" alt="">
-    <button>Buy product</button>
-</div> 
-
-<div class="card1">
-    <h2>Teclado Redragon</h2>
-    <img src="assets/Images/dragonborn-7.png" alt="">
-    <button>Buy product</button>
-</div> 
-<div class="card1">
-    <h2>Teclado Redragon</h2>
-    <img src="assets/Images/dragonborn-7.png" alt="">
-    <button>Buy product</button>
-</div> 
-
-<div class="card1">
-    <h2>Teclado Redragon</h2>
-    <img src="assets/Images/dragonborn-7.png" alt="">
-    <button>Buy product</button>
-</div> 
-
-<div class="card1">
-    <h2>Teclado Redragon</h2>
-    <img src="assets/Images/dragonborn-7.png" alt="">
-    <button>Buy product</button>
-</div> 
-
-</div> 
-
-<div class="cards-mid">
-  
-    <div class="card1">
-    <h2>Teclado Redragon</h2>
-    <img src="assets/Images/dragonborn-7.png" alt="">
-    <button>Buy product</button>
-    </div> 
-
- <div class="card1">
-    <h2>Teclado Redragon</h2>
-    <img src="assets/Images/dragonborn-7.png" alt="">
-    <button>Buy product</button>
-</div> 
-
-
-<div class="card1">
-<h2>Teclado Redragon</h2>
-<img src="assets/Images/dragonborn-7.png" alt="">
-<button>Buy product</button>
-</div> 
-
-<div class="card1">
-<h2>Teclado Redragon</h2>
-<img src="assets/Images/dragonborn-7.png" alt="">
-<button>Buy product</button>
-</div> 
-<div class="card1">
-<h2>Teclado Redragon</h2>
-<img src="assets/Images/dragonborn-7.png" alt="">
-<button>Buy product</button>
-</div> 
-
-<div class="card1">
-<h2>Teclado Redragon</h2>
-<img src="assets/Images/dragonborn-7.png" alt="">
-<button>Buy product</button>
-</div> 
-
-<div class="card1">
-<h2>Teclado Redragon</h2>
-<img src="assets/Images/dragonborn-7.png" alt="">
-<button>Buy product</button>
-</div> 
-
-</div> 
-
-<div class="cards-footer">
-  
-    <div class="card1">
-    <h2>Teclado Redragon</h2>
-    <img src="assets/Images/dragonborn-7.png" alt="">
-    <button>Buy product</button>
-    </div> 
-
- <div class="card1">
-    <h2>Teclado Redragon</h2>
-    <img src="assets/Images/dragonborn-7.png" alt="">
-    <button>Buy product</button>
-</div> 
-
-<div class="card1">
-    <h2>Teclado Redragon</h2>
-    <img src="assets/Images/dragonborn-7.png" alt="">
-    <button>Buy product</button>
-</div> 
-
-
-<div class="card1">
-    <h2>Teclado Redragon</h2>
-    <img src="assets/Images/dragonborn-7.png" alt="">
-    <button>Buy product</button>
-</div> 
-
-
-<div class="card1">
-    <h2>Teclado Redragon</h2>
-    <img src="assets/Images/dragonborn-7.png" alt="">
-    <button>Buy product</button>
-</div> 
-
-
-
-<div class="card1">
-<h2>Teclado Redragon</h2>
-<img src="assets/Images/dragonborn-7.png" alt="">
-<button>Buy product</button>
-
-</div> 
-</div>
-
-   
-
-
-</Section>
-    
+    <script>
+        function showCart(x) {
+            document.getElementById("products-id").style.display = "block";
+        }
+        function closeBtn() {
+            document.getElementById("products-id").style.display = "none";
+        }
+</script>
+    <script src="Scripts/app.js" ></script>
 </body>
 </html>
