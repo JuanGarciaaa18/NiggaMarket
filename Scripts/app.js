@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 let allContainerCart = document.querySelector('.products');
 let containerBuyCart = document.querySelector('.card-items');
 let priceTotal = document.querySelector('.price-total');
@@ -113,3 +114,23 @@ function loadHtml() {
 function clearHtml() {
     containerBuyCart.innerHTML = '';
 }
+=======
+const containercards= document.getElementById("products-container");
+
+function creatcardsproducts(products){
+    products.forEach(products=> {
+        const newpheripherals = document.createElement("div");
+        newpheripherals.classList ="card-product";
+        newpheripherals.innerHTML = `
+        <img src="${products.img}">
+        <h3>${products.nombre}</h3>
+        <p>$${products.precio}</p>
+        <button>Comprar</button>
+        `
+        
+        containercards.appendChild(newpheripherals);
+    });
+}
+
+creatcardsproducts(products);
+>>>>>>> 735946113ffeeaf9c51c6f99bfc0e3dde56ab3d5

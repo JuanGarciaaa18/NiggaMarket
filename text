@@ -1,0 +1,145 @@
+
+    <div class="cards">
+  
+        <div class="card1">
+        <h2 id="nameproduct"> Teclado Redragon</h2>
+        <img src="assets/Images/dragonborn-7.png" alt="" id="imgproduct">
+        <h2 id="priceproduct"> 100.000</h2>
+        <button id="addproduct"> Buy product</button>
+        </div> 
+
+     <div class="card1">
+        <h2>Teclado Redragon</h2>
+        <img src="assets/Images/dragonborn-7.png" alt="">
+        <button>Buy product</button>
+    </div> 
+
+
+<div class="card1">
+    <h2>Teclado Redragon</h2>
+    <img src="assets/Images/dragonborn-7.png" alt="">
+    <button>Buy product</button>
+</div> 
+
+<div class="card1">
+    <h2>Teclado Redragon</h2>
+    <img src="assets/Images/dragonborn-7.png" alt="">
+    <button>Buy product</button>
+</div> 
+<div class="card1">
+    <h2>Teclado Redragon</h2>
+    <img src="assets/Images/dragonborn-7.png" alt="">
+    <button>Buy product</button>
+</div> 
+
+<div class="card1">
+    <h2>Teclado Redragon</h2>
+    <img src="assets/Images/dragonborn-7.png" alt="">
+    <button>Buy product</button>
+</div> 
+
+<div class="card1">
+    <h2>Teclado Redragon</h2>
+    <img src="assets/Images/dragonborn-7.png" alt="">
+    <button>Buy product</button>
+</div> 
+
+</div> 
+
+<div class="cards-mid">
+  
+    <div class="card1">
+    <h2>Teclado Redragon</h2>
+    <img src="assets/Images/dragonborn-7.png" alt="">
+    <button>Buy product</button>
+    </div> 
+
+ <div class="card1">
+    <h2>Teclado Redragon</h2>
+    <img src="assets/Images/dragonborn-7.png" alt="">
+    <button>Buy product</button>
+</div> 
+
+
+<div class="card1">
+<h2>Teclado Redragon</h2>
+<img src="assets/Images/dragonborn-7.png" alt="">
+<button>Buy product</button>
+</div> 
+
+<div class="card1">
+<h2>Teclado Redragon</h2>
+<img src="assets/Images/dragonborn-7.png" alt="">
+<button>Buy product</button>
+</div> 
+<div class="card1">
+<h2>Teclado Redragon</h2>
+<img src="assets/Images/dragonborn-7.png" alt="">
+<button>Buy product</button>
+</div> 
+
+<div class="card1">
+<h2>Teclado Redragon</h2>
+<img src="assets/Images/dragonborn-7.png" alt="">
+<button>Buy product</button>
+</div> 
+
+<div class="card1">
+<h2>Teclado Redragon</h2>
+<img src="assets/Images/dragonborn-7.png" alt="">
+<button>Buy product</button>
+</div> 
+
+</div> 
+
+<div class="cards-footer">
+  
+    <div class="card1">
+    <h2>Teclado Redragon</h2>
+    <img src="assets/Images/dragonborn-7.png" alt="">
+    <button>Buy product</button>
+    </div> 
+
+ <div class="card1">
+    <h2>Teclado Redragon</h2>
+    <img src="assets/Images/dragonborn-7.png" alt="">
+    <button>Buy product</button>
+</div> 
+
+<div class="card1">
+    <h2>Teclado Redragon</h2>
+    <img src="assets/Images/dragonborn-7.png" alt="">
+    <button>Buy product</button>
+</div> 
+
+
+<div class="card1">
+    <h2>Teclado Redragon</h2>
+    <img src="assets/Images/dragonborn-7.png" alt="">
+    <button>Buy product</button>
+</div> 
+
+
+<div class="card1">
+    <h2>Teclado Redragon</h2>
+    <img src="assets/Images/dragonborn-7.png" alt="">
+    <button>Buy product</button>
+</div> 
+
+
+
+<div class="card1">
+<h2>Teclado Redragon</h2>
+<img src="assets/Images/dragonborn-7.png" alt="">
+<button>Buy product</button>
+
+</div> 
+</div>
+
+   
+
+
+</Section>
+    
+</body>
+</html>
